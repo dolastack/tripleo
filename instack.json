@@ -1,0 +1,24 @@
+{ "nodes": [
+	{"pm_type": "pxe_ipmitool",
+	 "mac": [
+		"52:54:00:f2:4b:7c"
+	],
+	"pm_user": "root",
+	"pm_password": "fr1end$",
+	"pm_addr": "10.0.0.200",
+	"pm_port": "6230",
+	"name": "controller"
+	},
+	{
+	"pm_type": "pxe_ipmitool",
+	"mac" : [ "52:54:00:df:44:40"
+	],
+	"pm_user": "root",
+	"pm_password": "fr1end$",
+	"pm_addr": "10.0.0.200",
+	"pm_port" : "6231",
+	"name": "compute"
+
+}
+]
+}
